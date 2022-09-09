@@ -47,6 +47,7 @@ public class TimeMachineMixerBehaviour : PlayableBehaviour
 							break;
 							
 						case TimeMachineBehaviour.TimeMachineAction.JumpToTime:
+
 						case TimeMachineBehaviour.TimeMachineAction.JumpToMarker:
 							if(input.ConditionMet())
 							{
